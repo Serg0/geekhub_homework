@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">geekhub_1st_homework</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_first">_1stActivity</string>
+    <string name="button1">Go to 2d Activity</string>
+    <string name="SecondActivity_textView">This is the second activity!!!</string>
+
+</resources>
