@@ -15,8 +15,8 @@ public class FirstActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.first_activity);
     
-    Button b = (Button) findViewById(R.id.button1);
-    b.setOnClickListener(new OnClickListener() {
+    Button b1 = (Button) findViewById(R.id.button1);
+    b1.setOnClickListener(new OnClickListener() {
 		
 		public void onClick(View v) {
 			startActivity(new Intent(FirstActivity.this, SecondActivity.class));
@@ -24,6 +24,14 @@ public class FirstActivity extends Activity {
 		}
 	});
     
+    Button b2 = (Button) findViewById(R.id.button2);
+    b2.setOnClickListener(new OnClickListener() {
+		
+		public void onClick(View v) {
+			// TODO Auto-generated method stub
+			startActivity(new Intent(FirstActivity.this, ThirdActivity.class));
+		}
+	});
     
     }
 

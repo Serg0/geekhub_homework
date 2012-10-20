@@ -6,5 +6,7 @@
     <string name="title_activity_first">_1stActivity</string>
     <string name="button1">Go to 2d Activity</string>
     <string name="SecondActivity_textView">This is the second activity!!!</string>
+    <string name="button2">Go to the 3rd activity!</string>
+    <string name="ThirdActivity_textView">This is 3rd activity!!</string>
 
 </resources>
